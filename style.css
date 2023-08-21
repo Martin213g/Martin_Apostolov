@@ -1,0 +1,744 @@
+body {
+    background-color: rgb(11, 16, 26);
+    position: 0;
+    margin: 0;
+    overflow-x: hidden;
+    zoom: 100%;
+    display: grid;
+    overflow-x:hidden;
+    
+    
+    
+    
+}
+
+
+
+.line1 {
+    
+    border-color: transparent;
+    background-color: rgb(41, 41, 51);
+    transform: translateY(-5px);
+}
+
+
+
+@keyframes who {
+    form {
+       transform: translateX(0px);
+       
+    }
+    to {
+       transform: translateX(0px);
+       
+    }
+    
+}
+
+.who {
+    color: rgb(212, 212, 212);
+    background-color: rgb(18, 18, 31);
+    width: 245px;
+    height: 170px;
+    font-size: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    cursor: default;
+    animation-name: who;
+    animation-timing-function:ease-out;
+    animation-duration: 1.6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform: translateX(1300px);
+}
+
+.tx1 {
+    text-align: start;
+    transform: translateX(10px);
+    margin-top: 10px;
+    
+    
+}
+
+.tx2 {
+    text-align: end;
+    transform: translateX(10px);
+    margin-top: 10px;
+}
+
+@keyframes prfilepic {
+     form {
+        transform: translateX(0px);
+        
+     }
+     to {
+        transform: translateX(0px);
+        
+     }
+     
+}
+
+@keyframes background-prof {
+    form {
+       background-color: transparent;
+       
+    }
+    to {
+        background-color: rgb(252, 20, 12);
+       
+    }
+    
+}
+
+
+
+.background-prof {
+    width: 140px;
+    height: 140px;
+    animation-name: background-prof;
+    animation-timing-function:ease-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    border-radius: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23.5px;
+    
+}
+
+.prof {
+    
+    border-radius: 50%;
+    margin-top: 5.5px;
+    scale: 10px;
+    height: 130px;
+    width: 130px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: prfilepic;
+    animation-timing-function:ease-out;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform: translateX(1300px);
+    
+    
+}
+
+
+
+.menu {
+    width: 45px;
+    transform: translateX(-2px);
+}
+
+
+main {
+    background-color: rgb(11, 16, 26);
+    width: auto;
+    height: 400px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes contact {
+    form {
+    transform: translateX(0px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.mainback {
+    animation-name: contact;
+    background-color: rgb(18, 18, 31);
+    border-radius: 10px;
+    height: 70px;
+    display: flex;
+    margin-top: 7px;
+    animation-timing-function:ease-out;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform: translateX(1300px);
+    
+}
+
+
+
+
+.contact {
+    display: block;
+    margin-left: 8px;
+    
+    
+    
+}
+
+.contact3 {
+    width: 70px;
+    transition: 0.1s;
+    cursor: pointer;
+    
+    
+    
+}
+.contact3:hover {
+    scale: 1.1;
+   
+}
+
+.backklk {
+    background-color: rgb(18, 18, 31);
+    height: auto;
+    width: 290px;
+    transform: translateX(-29px);
+}
+
+
+
+@keyframes iframe1 {
+    form {
+    transform: translateX(0px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.iframe1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 235px;
+    height: 300px;
+    
+    border-radius: 15px;
+    animation-name: iframe1;
+    animation-timing-function:ease-out;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform: translateX(1300px);
+    
+    
+}
+
+@keyframes sosum {
+    form {
+    transform: translateX(0px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.sosum {
+    animation-name: sosum;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: -13px;
+    text-decoration: underline;
+    animation-timing-function:ease-out;
+    animation-duration: 1.4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform: translateX(1300px);
+}
+
+
+@keyframes ptxm {
+    form {
+    transform: translateX(0px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.ptxm {
+    animation-name: ptxm;
+    color: rgb(182, 182, 182);
+    font-size: 23px;
+    text-align: center;
+    margin-top: 35px;
+    animation-timing-function:ease-out;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform: translateX(1300px);
+}
+
+
+
+
+
+
+::-webkit-scrollbar {
+    background-color: rgb(39, 36, 66);
+    width: 5px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(94, 94, 94);
+    border-radius: 5px;
+}
+
+#html {
+    color: white;
+    text-align: center;
+}
+
+#htmlline {
+    height: 10px;
+    width: 220px;
+    background:linear-gradient(to right,rgb(89, 233, 84) 90%,rgb(26, 26, 26) 0%);
+    border-radius: 10px;
+    border: none;
+
+}
+
+#html2 {
+    color: white;
+    text-align: center;
+}
+
+#css {
+    color: white;
+    text-align: center;
+}
+
+#cssline {
+    height: 10px;
+    width: 220px;
+    background:linear-gradient(to right,rgb(89, 233, 84) 80%,rgb(26, 26, 26) 0%);
+    border-radius: 10px;
+    border: none;
+}
+
+#css2 {
+    color: white;
+    text-align: center;
+}
+
+#js {
+    color: white;
+    text-align: center;
+}
+
+#jsline {
+    height: 10px;
+    width: 220px;
+    background:linear-gradient(to right,rgb(89, 233, 84) 15%,rgb(26, 26, 26) 0%);
+    border-radius: 10px;
+    border: none;
+}
+
+#js2 {
+    color: white;
+    text-align: center;
+}
+
+#cde {
+    color: white;
+    text-align: center;
+}
+
+#cdeline {
+    height: 10px;
+    width: 220px;
+    background:linear-gradient(to right,rgb(89, 233, 84) 30%,rgb(26, 26, 26) 0%);
+    border-radius: 10px;
+    border: none;
+}
+
+#cde2 {
+    color: white;
+    text-align: center;
+}
+
+#java {
+    color: white;
+    text-align: center;
+}
+
+#javaline {
+    height: 10px;
+    width: 220px;
+    background:linear-gradient(to right,rgb(89, 233, 84) 0%,rgb(26, 26, 26) 0%);
+    border-radius: 10px;
+    border: none;
+}
+
+#java2 {
+    color: white;
+    text-align: center;
+}
+
+#php {
+    color: white;
+    text-align: center;
+}
+
+#phpline {
+    height: 10px;
+    width: 220px;
+    background:linear-gradient(to right,rgb(89, 233, 84) 1%,rgb(26, 26, 26) 0%);
+    border-radius: 10px;
+    border: none;
+}
+
+#php2 {
+    color: white;
+    text-align: center;
+}
+
+#cplus {
+    color: white;
+    text-align: center;
+}
+
+#cplusline {
+    height: 10px;
+    width: 220px;
+    background:linear-gradient(to right,rgb(89, 233, 84) 5%,rgb(26, 26, 26) 0%);
+    border-radius: 10px;
+    border: none;
+}
+
+#cplus2 {
+    color: white;
+    text-align: center;
+}
+
+#python {
+    color: white;
+    text-align: center;
+}
+
+#pythonline {
+    height: 10px;
+    width: 220px;
+    background:linear-gradient(to right,rgb(89, 233, 84) 0%,rgb(26, 26, 26) 0%);
+    border-radius: 10px;
+    border: none;
+}
+
+#cplus2 {
+    color: white;
+    text-align: center;
+}
+
+#time {
+    color: rgb(165, 163, 163);
+    font-size: 17px;
+    text-align: center;
+    transform: translateY(-0px);
+}
+
+.backfoot {
+    background-color: rgb(21, 21, 36);
+    width: auto;
+    height: 85px;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+#mye {
+    color: rgb(165, 163, 163);
+    font-size: 17px;
+    text-align: center;
+}
+
+@keyframes header-but {
+    form {
+    transform: translateX(0px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.header-butt {
+    animation-name: header-but;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    transform: translateY(9px);
+    animation-timing-function:ease-out;
+    animation-duration: 1.1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform: translateX(1300px);
+    
+    
+}
+
+.home {
+    font-size: 20px;
+    width: 70px;
+    border-radius: 3.5px;
+    background-color: rgb(34, 37, 54);
+    color: rgb(173, 173, 173);
+    border-color: transparent;
+    transform: translateY(16px);
+    transition: 0.1s;
+    cursor: pointer;
+}
+.home:hover {
+    background-color: rgb(52, 59, 94);
+    scale: 1.04;
+}
+
+.menu {
+    font-size: 20px;
+    width: 86px;
+    border-radius: 3.5px;
+    background-color: rgb(34, 37, 54);
+    color: rgb(173, 173, 173);
+    border-color: transparent;
+    transform: translateY(16px);
+    transition: 0.1s;
+    cursor: pointer;
+}
+.menu:hover {
+    background-color: rgb(52, 59, 94);
+    scale: 1.04;
+}
+
+.hr-menu {
+    margin-top: 33px;
+    border-color: transparent;
+    background-color: rgb(31, 31, 44);
+}
+
+.backgroundlog {
+    display: flex;
+    margin: 0;
+    position: 0;
+    background-size: cover;
+}
+
+
+
+
+.settings-but1 {
+    display: flex;
+    width: 50px;
+    transition: 0.1s;
+
+    
+    
+}
+.settings-but1:hover{
+    scale: 1.2;
+}
+
+.settings-but2 {
+    background: none;
+    border: none;
+    display: flex;
+    margin-left: auto;
+    transform: translateY(-26px);
+    margin-right: -5px;
+    
+}
+
+.background-photo1 {
+    background-color: rgb(24, 23, 31);
+    width: 247px;
+    height: 320px;
+    border-radius: 5px;
+    display: block;
+    flex-wrap: wrap;
+    
+}
+
+#photo-1 {
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#heart1 {
+    width: 55px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(13px);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#heart1:hover {
+    scale: 1.1;
+}
+
+.background-photo2 {
+    background-color:  rgb(24, 23, 31);
+    width: 247px;
+    height: 320px;
+    border-radius: 5px;
+    display: block;
+    flex-wrap: wrap;
+    
+    
+}
+
+#photo-2 {
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    filter: brightness(0.2);
+    
+
+    
+}
+
+#heart2 {
+    width: 55px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(13px);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#heart2:hover {
+    scale: 1.1;
+}
+
+.background-photo3 {
+    background-color:  rgb(24, 23, 31);
+    width: 247px;
+    height: 380px;
+    border-radius: 5px;
+    display: block;
+    flex-wrap: wrap;
+    
+    
+}
+
+#photo-3 {
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    filter: brightness(0.9);
+    
+
+    
+}
+
+#heart3 {
+    width: 55px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(13px);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#heart3:hover {
+    scale: 1.1;
+}
+
+#time2 {
+    color: rgb(165, 163, 163);
+    font-size: 17px;
+    text-align: center;
+    transform: translateY(-0px);
+}
+  
+::selection {
+    background-color: rgb(74, 79, 105);
+}
+
+
+
+@keyframes online-status {
+    form {
+        background-color: transparent;
+    }
+    to {
+        background-color: transparent;
+    }
+}
+
+.online-of-on {
+    animation-name: online-status;
+    display: flex;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+    margin-top: 11.6px;
+    margin-left: 10px;
+    animation-timing-function: ease;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transform: translateY(-2px);
+    margin-left: 5.5px;
+    
+
+}
+
+.online-of-on2 {
+    background-color: rgb(20, 22, 34);
+    height: 30px;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10PX;
+    display: flex;
+    margin-top: 10px;
+    transform: translateY(15px);
+}
+
+
+
+
+.online-status-tx {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(146, 146, 146);
+    transform: translateY(-22px);
+    margin-left: 5px;
+    
+}
+
+#select-settings {
+    width: 100px;
+    color: rgb(2, 2, 1);
+}
+
+option {
+    color: black;
+}
