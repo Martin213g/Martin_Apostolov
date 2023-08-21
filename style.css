@@ -495,6 +495,7 @@ main {
     transform: translateY(16px);
     transition: 0.1s;
     cursor: pointer;
+    text-align: center;
 }
 .home:hover {
     background-color: rgb(52, 59, 94);
